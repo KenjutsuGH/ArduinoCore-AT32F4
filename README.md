@@ -54,7 +54,7 @@ For the purpose of this demonstration, navigate to **Files** -> **Examples** -> 
  
 - The next option is **Artery OpenOCD ST-Link**. Ensure that the ST-Link adapter is correctly connected to the AT32F4 board before proceeding with the upload. Now the upload should proceed as expected:
 
-<img src="images/OpenOCD.png" alt="Artery OpenOCD DAPLink" width="70%" height="70%"> 
+<img src="images/OpenOCD_STLink.png" alt="Artery OpenOCD DAPLink" width="70%" height="70%"> 
 
 
 ## Disclaimer
