@@ -68,3 +68,17 @@ tools.Artery_ISP_Console.path={runtime.tools.Artery_ISP_Console.path}
 tools.Artery_ISP_Console.upload.params.verbose=-d
 tools.Artery_ISP_Console.upload.params.quiet=
 tools.Artery_ISP_Console.upload.pattern="{path}/{cmd}" "{build.path}/{build.project_name}.hex"
+
+#
+# OpenOCD DAP-Link / ST-Link
+#
+
+tools.ArteryOpenOCD.cmd=openocd
+tools.ArteryOpenOCD.cmd.macosx=bin-darwin_x86_64/openocd
+tools.ArteryOpenOCD.cmd.linux=bin-linux_x86_64/openocd
+tools.ArteryOpenOCD.cmd.windows=bin-windows_amd64/openocd.exe
+tools.ArteryOpenOCD.path={runtime.tools.ArteryOpenOCD.path}
+
+tools.ArteryOpenOCD.upload.params.verbose=-d
+tools.ArteryOpenOCD.upload.params.quiet=
+tools.ArteryOpenOCD.upload.pattern="{path}/{cmd}" -s {path}/scripts -f {path}/scripts/interface/{upload.protocol}.cfg -f {path}/scripts/target/at32f403axx.cfg -c init -c "program {build.path}/{build.project_name}.hex  verify reset exit"

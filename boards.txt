@@ -86,3 +86,13 @@ WeActStudioAT32F4.menu.upload_method.USBDFUMethod=Artery DFU ISP
 WeActStudioAT32F4.menu.upload_method.USBDFUMethod.upload.protocol=Artery_ISP
 WeActStudioAT32F4.menu.upload_method.USBDFUMethod.upload.tool=Artery_ISP_Console
 WeActStudioAT32F4.menu.upload_method.USBDFUMethod.upload.maximum_size=1048576
+
+WeActStudioAT32F4.menu.upload_method.OpenOCDDAPLink=Artery OpenOCD DAPLink
+WeActStudioAT32F4.menu.upload_method.OpenOCDDAPLink.upload.protocol=cmsis-dap-v2
+WeActStudioAT32F4.menu.upload_method.OpenOCDDAPLink.upload.tool=ArteryOpenOCD
+WeActStudioAT32F4.menu.upload_method.OpenOCDDAPLink.upload.maximum_size=1048576
+
+WeActStudioAT32F4.menu.upload_method.OpenOCDSTLink=Artery OpenOCD ST-Link
+WeActStudioAT32F4.menu.upload_method.OpenOCDSTLink.upload.protocol=stlink
+WeActStudioAT32F4.menu.upload_method.OpenOCDSTLink.upload.tool=ArteryOpenOCD
+WeActStudioAT32F4.menu.upload_method.OpenOCDSTLink.upload.maximum_size=1048576
