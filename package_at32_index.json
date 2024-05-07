@@ -93,8 +93,8 @@
               "host": "x86_64-apple-darwin",
               "url": "https://raw.githubusercontent.com/KenjutsuGH/ArteryOpenOCD_Arduino_Tools/main/Artery_ISP_Console_MacOS_Unavail.tar.bz2",
               "archiveFileName": "Artery_ISP_Console_MacOS_Unavail.tar.bz2",
-              "size": "398",
-              "checksum": "SHA-256:84e48941ec8cc17617662e5d0cb5864e8064b4d6f81a847e3918834f17180448"
+              "size": "405",
+              "checksum": "SHA-256:2ae034f289c35972824534e2707ed614c213521405df4d149f0834325c6758db"
             }
           ]
         },
